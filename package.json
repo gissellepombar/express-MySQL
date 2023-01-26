@@ -1,0 +1,23 @@
+{
+  "name": "express-one-more-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysqlstart": "mysql.server start",
+    "mysqlstop": "mysql.server stop",
+    "mysqllogin": "mysql -u root -p",
+    "dev": "nodemon 05-url-log.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1"
+  }
+}
